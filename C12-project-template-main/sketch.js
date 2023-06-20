@@ -12,12 +12,12 @@ function setup(){
   
   createCanvas(400,400);
  path = createSprite (200, 0);
-  path.addImage(pathImage);
+  path.addImg(pathImage);
   path.scale = 1.2
   path.velocityY= 3;
 
 boy= createSprite (200, 300)
-  boy.addAnimation = ('boy', boyImg)
+  boy.addAnimation('boy', boyImg)
 boy.scale=0.08;
   
 
